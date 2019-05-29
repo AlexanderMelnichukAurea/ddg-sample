@@ -3,17 +3,17 @@
  */
 
 public class Main {
-    static int a = 0;
+    static Integer a = 1;
     
     public static void main(String[] args) {
         if (a == 0) {
-            int b = 1;
+            Integer b = a;
         } else {
-            int c = 2;
+            Integer c = a;
         }
         for (int i = 0; i < a; i++) {
-            int b = 5;
-            int c = 6;
+            Integer b = a;
+            Integer c = a;
             System.out.println(a + b + c);
         }
     }
