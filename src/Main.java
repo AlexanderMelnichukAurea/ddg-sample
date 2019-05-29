@@ -14,6 +14,7 @@ public class Main {
         for (int i = 0; i < a; i++) {
             int b = 5;
             int c = 6;
+            System.out.println(a + b + c);
         }
     }
 }
